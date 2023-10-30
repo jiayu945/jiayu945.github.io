@@ -16,20 +16,30 @@
   <meta name="author" content="">
   <meta name="keywords" content="">
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Archives">
-<meta property="og:url" content="http://example.com/archives/2023/index.html">
+    <meta name="description" content="I am a master’s student in Spatial Planning at the TU Dortmund University, Germany. My research aims at contributing spatial transformations to sustainable and climate-resilient developments.  My rese">
+<meta property="og:type" content="website">
+<meta property="og:title" content="About">
+<meta property="og:url" content="http://example.com/about/index.html">
 <meta property="og:site_name" content="Jiayu Zheng">
+<meta property="og:description" content="I am a master’s student in Spatial Planning at the TU Dortmund University, Germany. My research aims at contributing spatial transformations to sustainable and climate-resilient developments.  My rese">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-10-30T15:01:15.000Z">
+<meta property="article:modified_time" content="2023-10-30T16:18:49.877Z">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Archives - Jiayu Zheng</title>
+  <title>About - Jiayu Zheng</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
 
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
 
 
 
@@ -143,13 +153,13 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+     style="background: url('/img/Me.jpg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle">Archives</span>
+            <span id="subtitle">About</span>
           
         </div>
 
@@ -171,26 +181,81 @@
         <div id="board"
           >
           
+            <div class="about-avatar">
+              <img src="/img/me_avatar.jpg" srcset="/img/loading.gif" lazyload class="img-fluid" alt="avatar">
+            </div>
+          
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-10 m-auto">
                 
 
-<div class="list-group">
-  <p class="h4">1 posts in total</p>
-  <hr>
-  
-  
-    
+<div class="text-center">
+  <div class="about-info">
+    <div class="about-name">Jiayu Zheng</div>
+    <div class="about-intro">Student | Spatial Planning</div>
+    <div class="about-icons">
       
-      <p class="h5">2023</p>
-    
-    <a href="/2023/10/30/Personal%20website%20established/" class="list-group-item list-group-item-action">
-      <time>10-30</time>
-      <div class="list-group-item-title">Personal website established</div>
-    </a>
-  
+        
+        
+        
+        <a href=https://linkedin.com/in/jiayu945 class="
+           hint--bottom hint--rounded"
+           aria-label=LinkedIn
+           target="_blank"
+        >
+          <i class="iconfont icon-linkedin-fill" aria-hidden="true"></i>
+          
+        </a>
+      
+        
+        
+        
+        <a href=https://twitter.com/zheng_jia_yu class="
+           hint--bottom hint--rounded"
+           aria-label=Twitter
+           target="_blank"
+        >
+          <i class="iconfont icon-twitter-fill" aria-hidden="true"></i>
+          
+        </a>
+      
+    </div>
+  </div>
 </div>
+
+<article class="about-content page-content mt-5">
+  <div class="markdown-body">
+    <p>I am a master’s student in Spatial Planning at the TU Dortmund University, Germany. My research aims at contributing spatial transformations to sustainable and climate-resilient developments. </p>
+<p>My research interests are: 1) impacts of climate and land use changes on ecosystem services, 2) land use decision modeling for understanding complex social-ecological systems, and 3) pathways to generate and implement strategies for increasing sustainability and climate resilience, especially nature-based solutions.</p>
+<p>As inter- and multi-disciplinarity are important in these research fields, I am happy to combine quantitative and qualitative methods and collaborate with stakeholders and partners from different sectors to narrow the gap between knowledge and action.</p>
+
+  </div>
+
+  
+</article>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
 
 
 
@@ -275,6 +340,59 @@
 
 
 
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
 
   <script  src="/js/local-search.js" ></script>
 
