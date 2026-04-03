@@ -1,5 +1,5 @@
 ---
-title: "IOER Conference 2024 Space & Transformation: Living in Harmony with Nature"
+title: "IOER Conference 2024 - Space & Transformation: Living in Harmony with Nature"
 collection: talks
 type: "Conference presentation"
 permalink: /talks/2024-09-26-conference-1
