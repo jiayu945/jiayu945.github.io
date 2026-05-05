@@ -9,7 +9,7 @@ redirect_from:
 
 Hi! This is Jiayu Zheng (郑家裕). I am a PhD student in the Chair of Landscape Planning at [TU Dortmund](https://www.tu-dortmund.de/), advised by Prof. Dr. Aude Zingraff-Hamed. 
 
-My research interests lie in the intersection of **spatial planning**, **nature-based solutions**, and **GeoAI**. My research aims to empower the planning and design of nature-based solutions through trustworthy GeoAI towards sustainable and resilient urban futures.
+My research interests lie at the intersection of **spatial planning**, **nature-based solutions**, and **GeoAI**. My research aims to empower the planning and design of nature-based solutions through trustworthy GeoAI towards sustainable and resilient urban futures.
 
 News
 ======
