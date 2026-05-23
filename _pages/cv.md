@@ -23,8 +23,8 @@ Education
     vertical-align: top; /* 确保左右文字都在顶部对齐 */
   }
   .cv-timeline .year-col {
-    width: 20%; /* 左侧年份列占的宽度，可根据需要微调 */
-    padding-right: 15px;
+    width: 15%; /* 左侧年份列占的宽度，可根据需要微调 */
+    padding-right: 10px;
   }
   .cv-timeline p {
     margin: 0 0 5px 0; /* 控制右侧“学位”、“论文”、“导师”之间的紧凑度 */
