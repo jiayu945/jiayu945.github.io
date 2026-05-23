@@ -21,7 +21,7 @@ Research experience
 * **Research Assistant**, 02/2024 – 07/2024
   * Institute of Geography, Ruhr University Bochum (Germany)
   * Chair of Environmental Analysis and Planning (Prof. Dr. Christian Albert and Dr. Blal Adem Esmail)
-  * Worked on the research project [REPLAN](https://www.kth.se/seed/forskning/alg/pagaende-forskningsprojekt/replan-1.1087728)
+  * Worked on the research project [REPLAN](https://www.kth.se/seed/forskning/pagaende-forskningsp/pagaende-forsknings-projekt/replan-1.1087728)
 
 
   
