@@ -73,7 +73,7 @@ Research Experience
     <td>
       <p><strong>Research Assistant, Ruhr University Bochum</strong></p>
       <p>Chair of Environmental Analysis and Planning, Institute of Geography</p>
-      <p>Worked on the research project <a href="https://jiayu945.github.io/year-archive/">REPLAN</a></p>
+      <p>Worked on the research project <a href="https://www.kth.se/seed/forskning/pagaende-forskningsp/pagaende-forsknings-projekt/replan-1.1087728">REPLAN</a></p>
     </td>
   </tr>
 
