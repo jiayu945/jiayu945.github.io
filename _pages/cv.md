@@ -18,7 +18,6 @@ redirect_from:
     /* 强制表格继承全局字号和行高，打破默认的缩小效果 */
     font-size: 1em; 
     line-height: 1.6;
-    color: #333; 
   }
   .cv-timeline td {
     border: none;
@@ -29,7 +28,7 @@ redirect_from:
     width: 20%; 
     padding-right: 10px;
     /* 让左侧年份稍微变灰，和 Talks 页面的日期颜色 (#555) 呼应 */
-    color: #555;
+    opacity: 0.8;
     font-size: 0.95em;
   }
   .cv-timeline p {
