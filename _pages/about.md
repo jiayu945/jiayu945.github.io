@@ -7,6 +7,18 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+  /* 拉开主标题 (About) 与下方第一段正文的间距 */
+  .page__content {
+    margin-top: 40px !important; 
+  }
+  
+  /* 标题与上方内容的间距 */
+  .page__content h1 {
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+  }
+</style>
 
 Hi! This is Jiayu Zheng (郑家裕). I am a PhD student in the Chair of Landscape Planning at [TU Dortmund](https://www.tu-dortmund.de/), advised by Prof. Dr. Aude Zingraff-Hamed. 
 
