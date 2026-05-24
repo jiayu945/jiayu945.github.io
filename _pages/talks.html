@@ -1,16 +1,48 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<div class="talks-list">
+  {% for talk in site.data.talks %}
+  <div style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px dashed #ddd;">
+    
+    <h3 style="margin-top: 0; margin-bottom: 8px;">
+      {{ talk.title }}
+    </h3>
+    
+    <p style="margin: 0; font-size: 0.9em; color: #555;">
+      <span style="display: inline-block; background: #eee; padding: 2px 8px; border-radius: 4px; margin-right: 10px; font-weight: bold; color: #333;">
+        {{ talk.type }}
+      </span>
+      <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ talk.date }} &nbsp;|&nbsp;
+      <i class="fa fa-fw fa-map-marker-alt" aria-hidden="true"></i> <em>{{ talk.venue }}</em>, {{ talk.location }}
+    </p>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+    {% if talk.description %}
+      <p style="margin: 10px 0 0 0; font-size: 0.95em;">
+        {{ talk.description }}
+      </p>
+    {% endif %}
 
-{% endif %}
+    {% if talk.link %}
+      <div style="margin-top: 10px;">
+        <a href="{{ talk.link }}" target="_blank" style="font-size: 0.85em; text-decoration: none; border: 1px solid #007bff; color: #007bff; padding: 3px 10px; border-radius: 5px; transition: 0.2s;">
+          <i class="fas fa-link"></i> Event Link / Slides
+        </a>
+      </div>
+    {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+  </div>
+  {% endfor %}
+</div>
+
+<style>
+  /* 鼠标悬停在链接按钮上的变色特效 */
+  .talks-list a:hover {
+    background-color: #007bff;
+    color: white !important;
+  }
+</style>
