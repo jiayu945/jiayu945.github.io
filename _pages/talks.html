@@ -5,7 +5,7 @@ permalink: /talks/
 author_profile: true
 ---
 
-<div class="talks-list">
+<div class="talks-list" style="margin-top: 40px;">
   {% for talk in site.data.talks %}
   <div style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px dashed #ddd;">
     
@@ -23,7 +23,7 @@ author_profile: true
 
     {% if talk.description %}
       <p style="margin: 10px 0 0 0; font-size: 0.95em;">
-        {{ talk.description }}
+        {{ talk.description | markdownify | remove: "<p>" | remove: "</p>" }}
       </p>
     {% endif %}
 
