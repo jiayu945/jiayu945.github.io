@@ -20,6 +20,11 @@ redirect_from:
     margin-top: 40px !important;    /* 标题上方的留白 */
     margin-bottom: 25px !important; /* 标题下方的留白 */
   }
+
+  /* 3. 控制正文普通段落之间的间距 */
+  .page__content p {
+    margin-bottom: 15px !important; /* 默认通常是 24px 左右，现在缩小到 15px */
+  }
 </style>
 
 Hi! This is Jiayu Zheng (郑家裕). I am a PhD student in the Chair of Landscape Planning at [TU Dortmund](https://www.tu-dortmund.de/), advised by Prof. Dr. Aude Zingraff-Hamed. 
