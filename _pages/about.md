@@ -10,13 +10,13 @@ redirect_from:
 <style>
   /* 拉开主标题 (About) 与下方第一段正文的间距 */
   .page__content {
-    margin-top: 40px !important; 
+    margin-top: 30px !important; 
   }
   
   /* 标题与上方内容的间距 */
   .page__content h1 {
-    margin-top: 40px !important;
-    margin-bottom: 20px !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
   }
 </style>
 
