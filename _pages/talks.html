@@ -7,13 +7,13 @@ author_profile: true
 
 <div class="talks-list" style="margin-top: 40px;">
   {% for talk in site.data.talks %}
-  <div style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px dashed #ddd;">
+  <div style="margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px dashed rgba(150, 150, 150, 0.3);">
     
     <h3 style="margin-top: 0; margin-bottom: 8px;">
       {{ talk.title }}
     </h3>
     
-    <p style="margin: 0; font-size: 0.9em; color: #555;">
+    <p style="margin: 0; font-size: 0.9em; opacity: 0.8;">
       <span style="display: inline-block; background: #eee; padding: 2px 8px; border-radius: 4px; margin-right: 10px; font-weight: bold; color: #333;">
         {{ talk.type }}
       </span>
@@ -26,7 +26,7 @@ author_profile: true
     </p>
 
     {% if talk.description %}
-      <p style="margin: 10px 0 0 0; font-size: 0.95em;">
+      <p style="margin: 10px 0 0 0; font-size: 0.95em; color: inherit;">
         {{ talk.description | markdownify | remove: "<p>" | remove: "</p>" }}
       </p>
     {% endif %}
