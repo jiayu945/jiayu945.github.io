@@ -22,10 +22,9 @@
   }
 
   /* 2. 全局“按钮”类链接的悬停特效（变蓝底白字） */
-  /* 如果在 Markdown 里给链接加上了 {: .btn}，或者自带 btn 类的元素，就会应用这个效果 */
+  /* 只对带有 btn 或 action-btn 标记的专属按钮生效 */
   .btn:hover, 
-  .talks-list a:hover, 
-  .publications-list a:hover {
+  .action-btn:hover {
     background-color: #007bff !important;
     color: white !important;
     border-color: #007bff !important;
