@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+
 <style>
   .cv-timeline {
     border-collapse: collapse;
@@ -38,6 +37,8 @@ Education
     margin: 6px 0; 
   }
 </style>
+
+## Education
 
 <table class="cv-timeline">
   <tr>
@@ -73,8 +74,8 @@ Education
   </tr>
 </table>
 
-Research Experience
-======
+## Research Experience
+
 <table class="cv-timeline">
   <tr>
     <td class="year-col">2024</td>
