@@ -46,7 +46,7 @@ redirect_from:
       <p style="margin-top: 0;">Since 2026</p>
     </td>
     <td>
-      <p><strong>PhD Student in Spatial Planning, TU Dortmund University</strong></p>
+      <p style="margin-top: 0;"><strong>PhD Student in Spatial Planning, TU Dortmund University</strong></p>
       <p>Working title of the dissertation: <em>Generative climate adaptation: Enhancing urban resilience through AI-driven planning of nature-based solutions</em></p>
       <p>Supervisor: Prof. Dr. Aude Zingraff-Hamed</p>
     </td>
@@ -57,7 +57,7 @@ redirect_from:
       <p style="margin-top: 0;">2024</p>
     </td>
     <td>
-      <p><strong>MSc in Spatial Planning, TU Dortmund University</strong></p>
+      <p style="margin-top: 0;"><strong>MSc in Spatial Planning, TU Dortmund University</strong></p>
       <p>Thesis: <em>Prioritizing nature-based solutions to support urban planning: A spatial multi-criteria analysis approach based on ecosystem services</em></p>
       <p>Supervisors: Dr. Blal Adem Esmail, Prof. Dr. Dietwald Gruehn</p>
     </td>
@@ -68,7 +68,7 @@ redirect_from:
       <p style="margin-top: 0;">2020</p>
     </td>
     <td>
-      <p><strong>Exchange Student in Spatial Development and Infrastructure Systems, ETH Zurich</strong></p>
+      <p style="margin-top: 0;"><strong>Exchange Student in Spatial Development and Infrastructure Systems, ETH Zurich</strong></p>
     </td>
   </tr>
 
@@ -77,7 +77,7 @@ redirect_from:
       <p style="margin-top: 0;">2017</p>
     </td>
     <td>
-      <p><strong>BEng in Urban Planning, Guangdong University of Technology</strong></p>
+      <p style="margin-top: 0;"><strong>BEng in Urban Planning, Guangdong University of Technology</strong></p>
     </td>
   </tr>
 </table>
@@ -90,7 +90,7 @@ redirect_from:
       <p style="margin-top: 0;">2024</p>
     </td>
     <td>
-      <p><strong>Research Assistant, Ruhr University Bochum</strong></p>
+      <p style="margin-top: 0;"><strong>Research Assistant, Ruhr University Bochum</strong></p>
       <p>Chair of Environmental Analysis and Planning, Institute of Geography</p>
       <p>Worked on the research project <a href="https://www.kth.se/seed/forskning/pagaende-forskningsp/pagaende-forsknings-projekt/replan-1.1087728">REPLAN</a></p>
     </td>
