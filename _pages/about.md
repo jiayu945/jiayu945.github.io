@@ -8,15 +8,17 @@ redirect_from:
 ---
 
 <style>
-  /* 拉开主标题 (About) 与下方第一段正文的间距 */
+  /* 1. 控制主标题 (About) 和下方第一段文字的间距 */
   .page__content {
-    margin-top: 30px !important; 
+    margin-top: 25px !important; 
   }
   
-  /* 标题与上方内容的间距 */
-  .page__content h1 {
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
+  /* 2. 控制正文里的大标题及其下方文字的间距 */
+  .page__content h1, 
+  .page__content h2, 
+  .page__content h3 {
+    margin-top: 40px !important;    /* 标题上方的留白 */
+    margin-bottom: 25px !important; /* 标题下方的留白 */
   }
 </style>
 
