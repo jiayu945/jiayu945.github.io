@@ -18,7 +18,7 @@ author_profile: true
         {{ talk.type }}
       </span>
       <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ talk.date }} &nbsp;|&nbsp;
-      <i class="fa fa-fw fa-map-marker-alt" aria-hidden="true"></i> <em>{{ talk.venue }}</em>, {{ talk.location }}
+      <i class="fa fa-fw fa-map-marker-alt" aria-hidden="true"></i> <em>{{ talk.organizer }}</em>, {{ talk.location }}
     </p>
 
     {% if talk.description %}
@@ -30,7 +30,7 @@ author_profile: true
     {% if talk.link %}
       <div style="margin-top: 10px;">
         <a href="{{ talk.link }}" target="_blank" style="font-size: 0.85em; text-decoration: none; border: 1px solid #007bff; color: #007bff; padding: 3px 10px; border-radius: 5px; transition: 0.2s;">
-          <i class="fas fa-link"></i> Event Link / Slides
+          <i class="fas fa-link"></i> Event Link
         </a>
       </div>
     {% endif %}
