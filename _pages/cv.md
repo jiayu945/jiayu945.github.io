@@ -22,19 +22,19 @@ redirect_from:
   }
   .cv-timeline td {
     border: none;
-    padding: 0 0 30px 0; /* 加大每个学历/工作之间的上下间距，从20px改为30px */
+    padding: 0 0 25px 0; /* 每个学历/工作之间的上下间距 */
     vertical-align: top;
   }
   .cv-timeline .year-col {
-    width: 25%; 
-    padding-right: 15px;
+    width: 20%; 
+    padding-right: 10px;
     /* 让左侧年份稍微变灰，和 Talks 页面的日期颜色 (#555) 呼应 */
     color: #555;
     font-size: 0.95em;
   }
   .cv-timeline p {
     /* 稍微拉开每个段落（比如学位和论文题目）之间的距离 */
-    margin: 6px 0; 
+    margin: 5px 0; 
   }
 </style>
 
@@ -42,7 +42,9 @@ redirect_from:
 
 <table class="cv-timeline">
   <tr>
-    <td class="year-col">Since 2026</td>
+    <td class="year-col">
+      <p style="margin-top: 0;">Since 2026</p>
+    </td>
     <td>
       <p><strong>PhD Student in Spatial Planning, TU Dortmund University</strong></p>
       <p>Working title of the dissertation: <em>Generative climate adaptation: Enhancing urban resilience through AI-driven planning of nature-based solutions</em></p>
@@ -51,7 +53,9 @@ redirect_from:
   </tr>
   
   <tr>
-    <td class="year-col">2024</td>
+    <td class="year-col">
+      <p style="margin-top: 0;">2024</p>
+    </td>
     <td>
       <p><strong>MSc in Spatial Planning, TU Dortmund University</strong></p>
       <p>Thesis: <em>Prioritizing nature-based solutions to support urban planning: A spatial multi-criteria analysis approach based on ecosystem services</em></p>
@@ -60,14 +64,18 @@ redirect_from:
   </tr>
 
   <tr>
-    <td class="year-col">2020</td>
+    <td class="year-col">
+      <p style="margin-top: 0;">2020</p>
+    </td>
     <td>
       <p><strong>Exchange Student in Spatial Development and Infrastructure Systems, ETH Zurich</strong></p>
     </td>
   </tr>
 
   <tr>
-    <td class="year-col">2017</td>
+    <td class="year-col">
+      <p style="margin-top: 0;">2017</p>
+    </td>
     <td>
       <p><strong>BEng in Urban Planning, Guangdong University of Technology</strong></p>
     </td>
@@ -78,7 +86,9 @@ redirect_from:
 
 <table class="cv-timeline">
   <tr>
-    <td class="year-col">2024</td>
+    <td class="year-col">
+      <p style="margin-top: 0;">2024</p>
+    </td>
     <td>
       <p><strong>Research Assistant, Ruhr University Bochum</strong></p>
       <p>Chair of Environmental Analysis and Planning, Institute of Geography</p>
