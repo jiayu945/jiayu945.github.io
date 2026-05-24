@@ -16,18 +16,26 @@ Education
     border-collapse: collapse;
     border: none;
     width: 100%;
+    /* 强制表格继承全局字号和行高，打破默认的缩小效果 */
+    font-size: 1em; 
+    line-height: 1.6;
+    color: #333; 
   }
   .cv-timeline td {
     border: none;
-    padding: 0 0 20px 0; /* 控制不同学历之间的上下间距 */
-    vertical-align: top; /* 确保左右文字都在顶部对齐 */
+    padding: 0 0 30px 0; /* 加大每个学历/工作之间的上下间距，从20px改为30px */
+    vertical-align: top;
   }
   .cv-timeline .year-col {
-    width: 15%; /* 左侧年份列占的宽度，可根据需要微调 */
-    padding-right: 10px;
+    width: 25%; 
+    padding-right: 15px;
+    /* 让左侧年份稍微变灰，和 Talks 页面的日期颜色 (#555) 呼应 */
+    color: #555;
+    font-size: 0.95em;
   }
   .cv-timeline p {
-    margin: 0 0 5px 0; /* 控制右侧“学位”、“论文”、“导师”之间的紧凑度 */
+    /* 稍微拉开每个段落（比如学位和论文题目）之间的距离 */
+    margin: 6px 0; 
   }
 </style>
 
