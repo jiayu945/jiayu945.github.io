@@ -14,3 +14,21 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+
+<style>
+  /* 1. 全局普通文字链接的悬停特效（只变蓝色，不变背景） */
+  a:hover {
+    color: #007bff !important;
+  }
+
+  /* 2. 全局“按钮”类链接的悬停特效（变蓝底白字） */
+  /* 如果在 Markdown 里给链接加上了 {: .btn}，或者自带 btn 类的元素，就会应用这个效果 */
+  .btn:hover, 
+  .talks-list a:hover, 
+  .publications-list a:hover {
+    background-color: #007bff !important;
+    color: white !important;
+    border-color: #007bff !important;
+    text-decoration: none;
+  }
+</style>
