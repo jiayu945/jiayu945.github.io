@@ -18,7 +18,7 @@ author_profile: true
         {{ talk.type }}
       </span>
       
-      <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ talk.date }} &nbsp;|&nbsp;
+      <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ talk.date | date: "%B %-d, %Y" }} &nbsp;|&nbsp;
       
       <i class="fa fa-fw fa-university" aria-hidden="true"></i> <em>{{ talk.organizer }}</em> &nbsp;|&nbsp;
       
